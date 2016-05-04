@@ -1,4 +1,4 @@
-//JavaScript
+﻿//JavaScript
 	
 $(document).ready(function(e){	
 $('#principal').height($('#page').height()); //calcular el alto de la pantalla del dispositivo
@@ -14,7 +14,7 @@ $('#principal').height($('#page').height()); //calcular el alto de la pantalla d
 	audio.preoladFX('elefante','audio/Elefante.mp3',function(){},function(e){alert('Error' +e);});
 	audio.preoladFX('gorila','audio/Gorila.mp3',function(){},function(e){alert('Error' +e);});
 	audio.preoladFX('leon','audio/Leon.mp3',function(){},function(e){alert('Error' +e);});
-	audio.preoladFX('mono_araña','audio/MonoAraña.mp3',function(){},function(e){alert('Error' +e);});
+	audio.preoladFX('mono_araña','audio/MonoA.mp3',function(){},function(e){alert('Error' +e);});
 	audio.preoladFX('panda','audio/Panda.mp3',function(){},function(e){alert('Error' +e);});
 	audio.preoladFX('tucan','audio/Tucan.mp3',function(){},function(e){alert('Error' +e);});
 	
