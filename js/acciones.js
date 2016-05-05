@@ -20,9 +20,10 @@ $('#principal').height($('#page').height()); //calcular el alto de la pantalla d
 	
 	
 	//Reproducir las notas
+
+	$('.animal').bind('touchstart', function(){$(this).addClass('tocada'); audio.play($(this).attr('id'));});
+	$('.animal').bind('touchend',function(){$(this).removeClass('tocada');});		
 	
-	$('.animal').bind('touchstart',function(){$(this).audio.play($(this).attr('id'));});
-	$('.animal').bind('touchend',function(){$(this);});	
 
 	
 	},false); //deviceready
